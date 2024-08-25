@@ -1,0 +1,14 @@
+.bg-reserve {
+  /* background-image: url("../assets/legumes.png"); */
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url("../assets/pizza.png");
+  /* width: 100vw; */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

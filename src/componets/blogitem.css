@@ -1,0 +1,18 @@
+.blog-cart:hover img {
+  scale: 1.1;
+  /* transition-duration: 500ms; */
+}
+
+.blog-cart img {
+  scale: 1;
+  transition: scale 0.5s;
+}
+
+.blog-cart .title-hover {
+  color: black;
+  transition: color 0.5s;
+}
+
+.blog-cart:hover .title-hover {
+  color: rgb(248, 24, 24);
+}
