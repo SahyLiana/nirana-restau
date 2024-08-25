@@ -47,12 +47,12 @@ function Menu({ setIsActive }: Props) {
   const displayMenuItem = menus.map((item) => (
     <MenuItem item={item} key={item.name} />
   ));
-  const container = {
-    hidden: {},
-    visible: {
-      transition: { staggerChildren: 0.2 },
-    },
-  };
+  // const container = {
+  //   hidden: {},
+  //   visible: {
+  //     transition: { staggerChildren: 0.2 },
+  //   },
+  // };
 
   return (
     <section id="Menu" className="min-h-screen py-24 bg-slate-100">
